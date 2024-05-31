@@ -1,13 +1,7 @@
 import React, { Fragment } from 'react'
-import Card from '@components/Card'
-import { useLocalization } from '../context/LocalizationWrapper';
-import { Select } from 'antd'
-import { languages } from '../constants/constants';
-import Translate from '../components/Common/Translate';
 import MyCard from '../components/Common/MyCard';
 
 export default function Home() {
-    const { switchLocale } = useLocalization();
 
 
     return (
