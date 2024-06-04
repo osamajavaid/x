@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
 import MyCard from '../components/Common/MyCard';
+import { Link } from 'react-router-dom';
+import Nav from '../components/Common/Nav';
 
 export default function Home() {
 
@@ -7,6 +9,7 @@ export default function Home() {
     return (
         <main className='h-screen w-full'>
             <h1 className='text-5xl text-center'>Pratice</h1>
+            <Nav />
             <div className="grid grid-cols-4 gap-4">
                 <MyCard
                     name="Shahmir"
